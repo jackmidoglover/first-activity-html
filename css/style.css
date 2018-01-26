@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 24px;
+}
+
+header {
+    background-color: #021635;
+    width: 1024px;
+    margin: 0 auto;
+}
+h1 {
+    color: #fefff4;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;        
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #e9eea8;
+    padding: 0 15 15 15;
+    overflow: auto;
+}
+
+#main-bio, 
+#contact-info,
+#bio-image {
+    float: left;
+}
+#main-bio {
+    width: 60%;
+   
+}
+
+#contact-info {
+    width: 20%;
+    
+}
+
+#bio-image {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
